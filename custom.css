@@ -36,10 +36,13 @@ body {
 }
 @media (min-width: 768px) {
   .container {
-    width: 888px;
+    width: 768px;
   }
 
 }  
+
+
+
 .responsive-video {
 position: relative;
 
