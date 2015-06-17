@@ -63,3 +63,25 @@ footer {
 	
 	background-color: #ddd;
 }
+.navbar {
+	border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+	border-radius: 0;
+	border-width: 60%;
+
+
+}
+
+.navbar-default {
+background-color: transparent;
+border-color: ;
+border-top-color: transparent;
+border-left-color: transparent;
+border-right-color: transparent;
+}
+.carousel-control.right {
+	background-image: linear-gradient(to right, transparent 0px, rgba(0, 0, 0, 0.1) 100%);
+}
+.carousel-control.left  {
+	background-image: linear-gradient(to left, transparent 0px, rgba(0, 0, 0, 0.1) 100%);
+}
+
