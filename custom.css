@@ -44,7 +44,7 @@ body {
 
 
 .responsive-video {
-position: relative;
+position: inherit;
 
 padding-top: 28px; overflow: hidden;
 }
@@ -83,5 +83,31 @@ border-right-color: transparent;
 }
 .carousel-control.left  {
 	background-image: linear-gradient(to left, transparent 0px, rgba(0, 0, 0, 0.1) 100%);
+}
+footer a{
+	padding: 5px;
+	color: #9966FF ;
+}
+footer br {
+	border-bottom:1px solid #000;
+    display:block;
+}
+footer p {
+	padding: 8px;
+	font-size: 18px;
+}
+footer {
+	margin-top: 22px;
+	padding: 8px 8px 8px;
+}
+footer ul {
+	list-style: none;
+}
+footer {
+	border-radius: 4px;
+}
+asside {
+
+	text-align: center;
 }
 
