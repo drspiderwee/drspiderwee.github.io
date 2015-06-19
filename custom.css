@@ -32,7 +32,8 @@
 body {
 	background: url(img/oldridge-bg2.jpg);
 	background-size: 1390px 1500px;
-     background-repeat:no-repeatdisplay: compact;
+     background-repeat:no-repeat;
+     display: compact;
 }
 @media (min-width: 768px) {
   .container {
