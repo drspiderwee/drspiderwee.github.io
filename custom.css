@@ -42,7 +42,11 @@ body {
   }
 
 }  
-
+@media (min-width: 768px) {
+  .modal-dialog {
+    width: 800px;
+    margin: 30px auto;
+  }
 
 
 .responsive-video {
@@ -135,6 +139,19 @@ asside {
 
 	text-align: center;
 }
+.modal-body .pull-left {
+	padding-right: 1em;
+}
+
+.modal-body .pull-right {
+	padding-right: 1em;
+}
+.modal-footer {
+	clear:both;
+}
+
+
+
 
 
 
