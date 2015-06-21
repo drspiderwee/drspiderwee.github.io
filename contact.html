@@ -50,12 +50,12 @@
 				    <!-- Collect the nav links, forms, and other content for toggling -->
 				    <div class="collapse navbar-collapse" id="navbar">
 				      <ul class="nav navbar-nav">
-				        <li class="active"><a href="index.html">Home</a></li>
+				        <li><a href="index.html">Home</a></li>
 
 				        <li><a href="#">Catalog</a></li>
 
 						<li><a href="#">About</a></li>
-				        <li><a href="contact.html">Contact</a></li>
+				        <li  class="active"><a href="#">Contact</a></li>
 				        <li><a href="#">Blog</a></li>
 				      </ul>
 				    </div><!-- end navbar-collapse -->
@@ -68,71 +68,129 @@
 </div>
 		<!--слайдер контент-->
 		<section class="row">
-			<div class="col-sm-12">
-				<div id="locations" class="carousel slide" data-ride="carousel">
-					<!--indicators-->
-					<ol class="carousel-indicators">
-						<li data-target="#locations" data-slide-to="0" class="active"></li>
-						<li data-target="#locations" data-slide-to="1"></li>
-						
+	<h2>Mail Us</h2>
+			<form role="form">
+		        <fieldset>
+		          <legend>...If you want to <b>order</b> or ask a question  </legend>
 
-					</ol>
-					<!--indicators-->
-					<div class="carousel-inner">
-						<div class="item active">
-							<div class="row">
-								<div class="col-sm-4"><a href="#Deadly_Forest" data-toggle="modal"><img src="img/lot/Deadly_Forest.jpg" alt="" class="img-responsive"></img></a></div>
-								<div class="col-sm-4"><a href="#Jet_Cat" data-toggle="modal"><img src="img/lot/Jet_Cat.jpg" alt="" class="img-responsive"></img></a></div>
-								<div class="col-sm-4"><a href="#Mask" data-toggle="modal"><img src="img/lot/Mask.jpg" alt="" class="img-responsive"></img></a></div>
-								<div class="col-sm-4"><a href="#Awe" data-toggle="modal"><img src="img/lot/Awe.jpg" alt="" class="img-responsive"></img></a></div>
-								<div class="col-sm-4"><a href="#Crows" data-toggle="modal"><img src="img/lot/Crows.jpg" alt="" class="img-responsive"></img></a></div>
-								<div class="col-sm-4"><a href="#Cyclo-Eagle" data-toggle="modal"><img src="img/lot/Cyclo-Eagle.jpg" alt="" class="img-responsive"></img></a></div>
-							</div>	
-						</div><!--item active-->
-						<div class="item">
-							<div class="row">
-								<div class="col-sm-4"><a href="" data-toggle="modal"><img src="img/lot/match_spirit.jpg" alt="" class="img-responsive"></img></a></div>
-								<div class="col-sm-4"><a href="" data-toggle="modal"><img src="img/lot/Piggy.jpg" alt="" class="img-responsive"></img></a></div>
-								<div class="col-sm-4"><a href="" data-toggle="modal"><img src="img/lot/Red_Siluet.jpg" alt="" class="img-responsive"></img></a></div>
-								<div class="col-sm-4"><a href="" data-toggle="modal"><img src="img/lot/Shark.jpg" alt="" class="img-responsive"></img></a></div>
-								<div class="col-sm-4"><a href="" data-toggle="modal"><img src="img/lot/Weird_Love.jpg" alt="" class="img-responsive"></img></a></div>
-								
-								<div class="col-sm-4"><a href="" data-toggle="modal"><img src="img/lot/whale.jpg" alt="" class="img-responsive"></img></a></div>
-							</div>	<!--row-->
-						</div><!--item active-->
-						
-					</div><!--carousel-inner-->
-					<a class="left carousel-control" href="#locations" data-slide="prev">
-						<span class="glyphicon glyphicon-chevron-left"></span>
-					</a>
-					<a class="right carousel-control" href="#locations" data-slide="next">
-						<span class="glyphicon glyphicon-chevron-right"></span>
-					</a>
-				</div><!--locations-->
-			</div><!--col-sm-10-->
+		          <div class="form-group"><!--Name-->
+		          	<label for="name" class="col-sm-2">Name</label>
+			        <div class="col-sm-10">
+			          	<input type="text" name="name" class="form-control">
+			        </div>
+		          </div><!--Name-->
+
+		          <div class="form-group"><!--Phone-->
+		          	<label for="name" class="col-sm-2">phone number</label>
+			        <div class="col-sm-10">
+			          	<input type="text" name="name" class="form-control">
+			        </div>
+		          </div><!--Phone-->
+
+				 <div class="form-group">
+		          	<label class="control-label">your size</label>
+		          	<div class="radio">
+			            <label>
+			              <input type="radio" name="roomtype" value="XS">
+			              XS</label>
+			        </div>      
+
+		            <div class="radio">
+		            	<label>
+		            	  <input type="radio" name="roomtype" value="S">
+		            	  S</label>
+		            </div>
+
+		            <div class="radio">
+		            	<label>
+		            	  <input type="radio" name="roomtype" value="M">
+		            	  M</label>
+		            </div>
+
+		            <div class="radio">
+		            	<label>
+		            	  <input type="radio" name="roomtype" value="L">
+		            	  L</label>
+		            </div>
+
+					<div class="radio">
+		            	<label>
+		            	  <input type="radio" name="roomtype" value="XL">
+		            	  XL</label>
+		            </div>
+					
+					<div class="radio">
+		            	<label>
+		            	  <input type="radio" name="roomtype" value="XXL">
+		            	  XXL</label>
+		            </div>
+
+
+		           </div>
+		           <div class="form-group">
+			          <label class="control-label">your color</label>
+			          <div class="radio">
+			          	<label>
+			          	  <input type="radio" name="smoking" value="smoking">
+			          	  White</label>
+			          </div>
+			          
+			          <div class="radio">
+			          	<label>
+			          	  <input type="radio" name="smoking" value="nonsmoking">
+			          	  Grey</label>
+			          </div>
+
+			          <div class="radio">
+			          	<label>
+			          	  <input type="radio" name="smoking" value="nonsmoking">
+			          	  Black</label>
+			          </div>
+			       </div>
+			       <div class="form-group">
+			          <label for="continent" class="control-label">your drawing:</label>
+			          <select name="continent" size="1" class="form-control">
+			            <option selected>Select one...</option>
+			            <option value="afr">Deadly Forest</option>
+			            <option value="ant">Jet Cat</option>
+			            <option value="asia">Mask</option>
+			            <option value="aus">Awe</option>
+			            <option value="eur">Crows</option>
+			            <option value="na">Cyclo-Eagle</option>
+			            <option value="sa">match spirit</option>
+			            <option value="afr">Piggy</option>
+			            <option value="ant">Red Siluet</option>
+			            <option value="asia">Shark</option>
+			            <option value="aus">Weird Love</option>
+			            <option value="eur">Crows</option>
+			            <option value="na">Whale</option>
+			           
+			          </select>
+		      		</div>
+		      		<div class="form-group">
+			          <label for="comments" class="control-label">Comments:</label>
+			          <textarea name="comments" class="form-control" rows="3" data-toggle="tooltip" title="We welcome your feedback" data-placement="bottom"></textarea>
+			        </div>
+			       
+
+			        <div class="form-group" id="email">
+			          <label for="email" class="col-sm-2">your email</label>
+			          <div class="col-sm-10">
+			            <input type="text" name="email" class="form-control">
+			           </div> 
+			        </div>
+			        <div class="form-group">
+		          		<button type="submit" class="btn btn-primary">Submit</button>
+					</div>
+		        </fieldset>
+		    </form>
 
 		
 		</section><!--section-->
 		<!--слайдер контент-->
 
 		<!--Promo-->
-		<article class="row">
-			<div class="col-sm-12">
-				<div class="row">
-					<div class="col-sm-6 text-left">
-						<h1>Lorem dolor sit amet</h1>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate voluptas mollitia doloribus molestiae ab, magni eius tempore laborum fuga earum quae placeat odit nihil ut? Voluptatem dolore quo eveniet sit.</p><br>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate voluptas mollitia doloribus molestiae ab, magni eius tempore laborum fuga earum quae placeat odit nihil ut? Voluptatem dolore quo eveniet sit.</p><br>
-						
-					</div>
-					<div class="col-sm-6">
-						<iframe width="354" height="328" src="https://www.youtube.com/embed/PfwyZ8t6X4o" frameborder="0" allowfullscreen class="responsive-video"></iframe>
-					</div>
-					
-				</div>
-			</div>
-		</article>		
-		<!--Promo-->
+
 
 		<!--footer-->
 		<footer class="row">
