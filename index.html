@@ -9,6 +9,7 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="custom.css" rel="stylesheet">
     <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/fotorama.css" />
 
 </head>
 <body>
@@ -19,7 +20,10 @@
 
 		<!--шапка-->
 		<header class="row">
+			
+				
 			<div class="col-sm-12 col-md-12 col-lg-12 logo">
+				<div class="phone"><p>call us : +380 63 777 77 77</p></div>
 				<img src="img/Oldridge-logo2.png" alt="Oldridge: obscurity series" class="img-responsive center-block">
 			</div>
 		</header>
@@ -180,16 +184,35 @@
                     </div>
                     <div class="modal-body">
 						<div class="row">
-							<div class="col-sm-6"><img src="img/lot/tst.jpg" alt="Harold Wandaleere." class="img-responsive pull-left"></div>
-							<div class="col-sm-6">
+							<div class="col-sm-8">
+								<div class="fotorama" data-autoplay="true" data-nav="thumbs"  data-transition="dissolve">
+									<img src="img/lot/tst.jpg" width="500" height="500" alt="Dead Forest" class="img-responsive pull-left">
+									<img src="img/tst2.jpg" width="500" height="500" alt="Dead Forest" class="img-responsive pull-left">
+									<img src="img/tst3.jpg" width="500" height="500" alt="Dead Forest" class="img-responsive pull-left">
+								</div>
+									
+							</div>
+
+
+
+
+								<!--<img src="img/lot/tst.jpg" alt="Harold Wandaleere." class="img-responsive pull-left"></div>-->
+							<div class="col-sm-4">
 								<div class="params">
 									<ul>
-										<li><b>lot:</b> Deadly Forest</li>
-										<li><b>color:</b> white, silver, black</li>
-										<li><b>size:</b> XS, S, M, L, Xl, XXL</li>
-										<li><b>material:</b> 100% cotton</li>
+										<li><b>lot</b> <p>Deadly Forest</p></li>
+										<li><b>color</b> 
+											<p>
+												<span>white</span> 
+												<span>gray</span> 
+												<span>black</span>
+											</p>
+										</li>
+										<li><b>size</b> <p>XS, S, M, L, XL, XXL</p></li>
+										<li><b>material</b> <p>100% cotton</p></li>
 									</ul>
-								</div><!-- params end -->
+								</div>
+								<button class="btn btn-success center-block btn-lg" style="margin-top:14px">BUY NOW</button><!-- params end -->
 							</div>	
 
                         								
@@ -208,9 +231,8 @@
 	<!-- javascript -->
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script>
-    	nav.style.borderLeftStyle="none"
-    </script>
+    <script type="text/javascript" src="js/fotorama.js"></script>
+
 
 </body>
 </html>
