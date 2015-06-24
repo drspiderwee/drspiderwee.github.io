@@ -1,0 +1,191 @@
+@import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700);
+@font-face {
+	font-family: 'MyriadPro-Regular';
+	src: url('fonts/MyriadPro-Regular.otf');
+}
+@font-face {
+	font-family: 'Bariol Bold';
+	src: url('fonts/Bariol_Bold.otf');
+}
+@font-face {
+	font-family: 'Bariol Regular';
+	src: url('fonts/Bariol_Regular.otf');
+}
+@font-face {
+	font-family: 'Questrial-Regular';
+	src: url('fonts/Questrial-Regular.ttf');
+}
+@font-face {
+	font-family: 'PT_Sans-Web-Regular';
+	src: url('fonts/PT_Sans-Web-Regular.ttf');
+}
+@font-face {
+	font-family: 'PT_Sans-Web-Bold';
+	src: url('fonts/PT_Sans-Web-Bold.ttf');
+}
+@font-face {
+	font-family: 'apercu';
+	src: url('fonts/apercu_regular_pro.otf');
+}
+@font-face {
+	font-family: 'Lora-Bold';
+	src: url('fonts/Lora-Bold.ttf');
+}
+@font-face {
+	font-family: 'Lora-BoldItalic';
+	src: url('fonts/Lora-BoldItalic.ttf');
+}
+@font-face {
+	font-family: 'Lora-Regular';
+	src: url('fonts/Lora-Regular.ttf');
+}
+
+
+
+/*-----------------*/
+
+body{
+	background: url(img/land2.png) no-repeat;
+
+}
+
+/*-------Brand----------*/
+.brnd {
+margin-left: -38px;
+	color: #fff;
+margin-top: 52px;
+
+
+	padding-left:42px; 
+	/*padding-right:18px;*/
+		background-color: rgba(255, 255, 255, 0.4);
+		border: none;
+}
+.brnd h4 {
+
+	font-size: 26px;
+font-family:'PT Sans', sans-serif;
+font-weight: bold;
+
+}
+.brnd span {
+
+	padding-top: 12px;
+	font-size: 11px;
+font-family: MyriadPro-Regular;
+float: right;
+
+}
+
+/*-------Brand----------*/
+
+/*-------Nav----------*/
+
+.navbar-nav {
+ padding-left: 62px;
+margin-top: 56px;
+
+}
+.navbar-nav > li {
+
+  display: inline-block;
+
+
+}
+.navbar-default {
+
+	background-color: transparent;
+	border-color: transparent;
+
+
+	
+}
+
+.navbar-default .navbar-nav>.active>a:hover {
+		color: #3498DB;
+
+}
+.navbar-default .navbar-nav>.active>a ,
+.navbar-default .navbar-nav>.active>a:focus {
+
+color: #fff;
+    /*background-color: rgba(0, 0, 0, 0.2);*/
+    background-color: transparent;
+	/*border: 1px solid #D0D0D0;*/
+	opacity: 0.999;
+    /*border-radius: 2px;*/
+    font-family: Bariol Bold;
+}
+
+.navbar-nav li a {
+	font-family: Bariol Regular;
+	font-size: 13px;
+	
+}
+.navbar-default .navbar-nav>li>a{
+	color: rgb(193, 192, 177);
+}
+/*-------Nav----------*/
+article {
+	padding-top: 148px;
+	font-family: PT_Sans-Web-Regular;
+	font-size: 35px;
+	color: #fff;
+	text-align: center;
+}
+
+.or {
+	color: #fff;
+	font-family: Lora-BoldItalic;
+	font-size: 16px;
+	font-style: italic;
+
+}
+.section {
+	margin-top: 82px;
+}
+.btn-default {
+font-family:'PT Sans', sans-serif;
+	color: #fff;
+	background-color: transparent;
+border-color: #F0F0F0;
+border-radius: 2px;
+font-size: 13px;
+margin-left:12px; 
+margin-right:12px; 
+padding: 20px 36px;
+
+}
+footer {
+	margin-top: 566px;
+}
+footer h4 {
+	color: #c2c1b1;
+	font-family: PT_Sans-Web-Regular;
+	font-size: 22px;
+	padding-bottom: 42px;
+	letter-spacing: 1.4px;
+
+}
+.bord{
+
+top:0;
+left:0;
+width:4%;
+border-top:1px solid  rgba(0, 0, 0, 0.2);
+
+
+}
+footer h5 {
+	padding-top: 28px;
+font-family: Lora-Regular;
+font-size: 20px;
+margin-bottom: 62px;
+}
+
+footer p {
+	font-family: PT_Sans-Web-Regular;
+	margin-bottom: 102px;
+}
+
+
