@@ -9,11 +9,11 @@
 </div>
 
 </br>
-<div class="row">
+<div class="row catalog">
 	<div class="col-sm-12">
 		<div class="row">
 			<div class="col-sm-4"><a href="#Deadly_Forest" data-toggle="modal"  >
-				<img src="img/lot/Deadly_Forest.jpg" alt="" class="img-responsive" id="my-img"></img>
+				<img src="img/lot/Deadly_Forest.jpg" alt="" class="img-responsive"></img>
 			</a>
 				<div class="caption">
 						<h3>Deadly Forest</h3>
@@ -91,7 +91,7 @@
 			<div class="col-sm-4"><a href="#" data-toggle="modal">
 				<img src="img/lot/Shark.jpg" alt="" class="img-responsive"></img></a>
 				<div class="caption">
-						<h3>Red Siluet</h3>
+						<h3>Shark</h3>
 					<p><a href="#nuan" data-toggle="modal" class="btn btn-primary" role="button">Read more</a></p>
 				</div>
 			</div>
