@@ -3,7 +3,7 @@
 		<div class="row">
 			<div class="col-sm-5"> <h1>Original Series</h1> </div>
 			<div class="col-sm-2"><h3>or</h3></div>
-			<div class="col-sm-5 right-text"><a href=""><h1>Black Edition</h1></a></div>
+			<div class="col-sm-5 right-text"><a href=""><h1 id="target">Black Edition</h1></a></div>
 		</div>
 	</div>
 </div>
@@ -12,8 +12,8 @@
 <div class="row">
 	<div class="col-sm-12">
 		<div class="row">
-			<div class="col-sm-4"><a href="#Deadly_Forest" data-toggle="modal">
-				<img src="img/lot/Deadly_Forest.jpg" alt="" class="img-responsive"></img>
+			<div class="col-sm-4"><a href="#Deadly_Forest" data-toggle="modal"  >
+				<img src="img/lot/Deadly_Forest.jpg" alt="" class="img-responsive" id="my-img"></img>
 			</a>
 				<div class="caption">
 						<h3>Deadly Forest</h3>

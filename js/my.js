@@ -22,5 +22,5 @@
 				if (window.location.href.indexOf("?view=blog") > -1) {
               	$( "nav ul li:contains(Blog)" ).addClass( "active" );
 }
-
+				
 });

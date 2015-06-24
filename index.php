@@ -77,7 +77,5 @@ $title = isset($arr[$_GET['view']]) ? $arr[$_GET['view']] : 'Oldridge: obscurity
 	<script src="js/my.js"></script>
 
 
-	<!--/*$( "nav ul li" ).last().addClass( "active" );*/-->
-
 </body>
 </html>

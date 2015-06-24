@@ -28,7 +28,6 @@
 								<div class="col-sm-4"><a href="#" data-toggle="modal"><img src="img/lot/Red_Siluet.jpg" alt="" class="img-responsive"></img></a></div>
 								<div class="col-sm-4"><a href="#" data-toggle="modal"><img src="img/lot/Shark.jpg" alt="" class="img-responsive"></img></a></div>
 								<div class="col-sm-4"><a href="#" data-toggle="modal"><img src="img/lot/Weird_Love.jpg" alt="" class="img-responsive"></img></a></div>
-								
 								<div class="col-sm-4"><a href="#" data-toggle="modal"><img src="img/lot/whale.jpg" alt="" class="img-responsive"></img></a></div>
 							</div>	<!--row-->
 						</div><!--item active-->
