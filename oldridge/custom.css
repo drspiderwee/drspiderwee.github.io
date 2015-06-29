@@ -1,0 +1,263 @@
+@font-face {
+	font-family: 'Condensed';
+	src: url('fonts/Helvetica-Condensed.otf');
+
+}
+.phone {
+	font-size: 22px;
+	text-align: right;
+	color: #99CCFF ;
+	font-family:Condensed;
+
+	
+}
+.navbar-nav {
+letter-spacing: 2px;
+  width: 100%;
+  text-align: center;
+}
+.navbar-nav > li {
+  float: none;
+  display: inline-block;
+}
+.col-md-2 {
+	padding: 0;
+}
+
+/*panel styling for the home page */
+.panel-primary .panel-heading {
+	background-color: #602F8D;
+	border-color: #602F8D;
+}
+
+.panel {
+	border-color: #602F8D;
+}
+
+.btn-primary{
+	background-color: #602F8D;
+	border-color: #602F8D; 
+}
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active{
+	background-color: #53297A;
+}
+body {
+	background-color: #99CCFF ;
+	background: url(img/black-thread-light.png);
+	font-family:Condensed;
+	font-size: 16px;
+
+	
+  
+}
+@media (min-width: 768px) {
+  .container {
+    width: 768px;
+
+  }
+
+}  
+@media (min-width: 768px) {
+  .modal-dialog {
+    width: 840px;
+    margin: 14px auto;
+  }
+.col-sm-8 .fotorama {
+	border-right: 1px solid rgba(0, 0, 0, 0.06);
+}
+.params {
+	border: solid 1px rgba(72,72,72, 0.2) ;
+	border-radius: 3px;
+	/*box-shadow: 3 3 6px rgba(0,0,0,0.4);*/
+}
+.params ul {
+	list-style: none;
+	text-align: center;
+	padding-right: 42px;
+}
+.params ul li {
+	font-size: 15.5px;
+}
+.params ul li p{
+	margin-top: 8px;
+}
+.params ul li p span {
+	border: solid 1px rgba(72,72,72, 0.4) ;
+	/*background-color: #383838;*/
+	border-radius: 4px;
+	padding: 6px;
+	
+}
+
+.params ul li p span:nth-child(2){
+	background-color: #E0E0E0;
+	
+} 
+.params ul li p span:last-child{
+	background-color: #000000;
+	color: #e8e8e8; 
+}
+
+.carousel-inner img {
+	border-radius: 3px;
+}
+.responsive-video {
+position: inherit;
+
+padding-top: 28px; overflow: hidden;
+}
+
+
+.responsive-video iframe,
+.responsive-video object,
+.responsive-video embed {
+/*position: absolute;*/
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+
+
+.navbar {
+	/**/
+	border-bottom: 0px solid rgba(0, 0, 0, 0.1);
+	border-radius: 0;
+	
+	font-weight: bold;
+}
+
+.navbar-default .navbar-nav>.active>a,
+/*.navbar-default .navbar-nav>.active>a:hover*/
+.navbar-default .navbar-nav>.active>a:focus {
+
+color: #3498DB;
+    /*background-color: rgba(0, 0, 0, 0.2);*/
+    background-color: transparent;
+	border: 1px solid #D0D0D0;
+	opacity: 0.999;
+    border-radius: 2px;
+   
+
+
+}
+.navbar-default .navbar-nav>.active>a:hover {
+	color: #3498DB;
+	background-color: rgba(0, 0, 0, 0.1);
+	
+}
+
+.form-control{
+	margin-top: 3px;
+}
+.navbar-default {
+background-color: transparent;
+border-color: #F0F0F0;
+border-top-color: transparent;
+border-left-color: transparent;
+border-right-color: transparent;
+}
+.bord{
+
+top:0;
+left:0;
+width:50%;
+border-top:1px solid  rgba(0, 0, 0, 0.2);
+
+
+}
+
+
+.carousel-control.right {
+	background-image: linear-gradient(to right, transparent 0px, rgba(0, 0, 0, 0.01) 100%);
+}
+.carousel-control.left  {
+	background-image: linear-gradient(to left, transparent 0px, rgba(0, 0, 0, 0.01) 100%);
+}
+.carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right {
+	top: 49%;
+}
+
+form .col-sm-10,
+form .col-sm-2 {
+	padding: 10px 0;
+	margin:0;
+}
+.col-sm-5 a, .col-sm-2{
+	color: #383838 ;
+	text-align: center;
+}
+.col-sm-5{
+	text-align: center;
+}
+.caption {
+	text-align: center;
+}
+
+.container {
+
+	
+	
+	/*background-color: #F8F8F8;
+	*/
+
+}
+section img{
+	margin-top: 12px;
+	margin-bottom: 16px;
+	border:solid 1px;
+	border-color: #989898 ; 
+	box-shadow: 0 0 1px rgba(0,0,0,0.4);
+}
+footer a{
+	padding: 5px;
+	color: #484848;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+footer i{
+	color: #3498DB;
+}
+footer br {
+	border-bottom:1px solid #000;
+    display:block;
+}
+footer p {
+	padding: 8px;
+	font-size: 18px;
+	letter-spacing: 2px;
+}
+footer {
+	border-radius: 4px;
+
+	margin-top: 28px;
+	padding: 8px 8px 8px;
+	
+}
+footer ul {
+	list-style: none;
+}
+
+asside {
+
+	text-align: center;
+}
+.modal-body .pull-left {
+	padding-right: 1em;
+}
+
+.modal-body .pull-right {
+	padding-right: 1em;
+}
+.modal-footer {
+	clear:both;
+}
+
+
+
+
+
+
+
