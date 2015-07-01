@@ -1,7 +1,7 @@
 <div class="row">
 	<div class="col-sm-12">
 		<div class="row">
-			<div class="col-sm-5"> <h1>Original Series</h1> </div>
+			<div class="col-sm-5"> <a href=""><h1 id="original">Original Series</h1></a> </div>
 			<div class="col-sm-2"><h3>or</h3></div>
 			<div class="col-sm-5 right-text"><a href=""><h1 id="target">Black Edition</h1></a></div>
 		</div>

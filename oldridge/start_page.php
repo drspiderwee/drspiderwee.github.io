@@ -23,12 +23,12 @@
 						</div><!--item active-->
 						<div class="item">
 							<div class="row">
-								<div class="col-sm-4"><a href="#" data-toggle="modal"><img src="img/lot/match_spirit.jpg" alt="" class="img-responsive"></img></a></div>
-								<div class="col-sm-4"><a href="#" data-toggle="modal"><img src="img/lot/Piggy.jpg" alt="" class="img-responsive"></img></a></div>
-								<div class="col-sm-4"><a href="#" data-toggle="modal"><img src="img/lot/Red_Siluet.jpg" alt="" class="img-responsive"></img></a></div>
-								<div class="col-sm-4"><a href="#" data-toggle="modal"><img src="img/lot/Shark.jpg" alt="" class="img-responsive"></img></a></div>
-								<div class="col-sm-4"><a href="#" data-toggle="modal"><img src="img/lot/Weird_Love.jpg" alt="" class="img-responsive"></img></a></div>
-								<div class="col-sm-4"><a href="#" data-toggle="modal"><img src="img/lot/whale.jpg" alt="" class="img-responsive"></img></a></div>
+								<div class="col-sm-4"><a href="#match_spirit" data-toggle="modal"><img src="img/lot/match_spirit.jpg" alt="match spirit" class="img-responsive"></img></a></div>
+								<div class="col-sm-4"><a href="#Piggy" data-toggle="modal"><img src="img/lot/Piggy.jpg" alt="Piggy" class="img-responsive"></img></a></div>
+								<div class="col-sm-4"><a href="#Red_Siluet" data-toggle="modal"><img src="img/lot/Red_Siluet.jpg" alt="Red Siluet" class="img-responsive"></img></a></div>
+								<div class="col-sm-4"><a href="#Shark" data-toggle="modal"><img src="img/lot/Shark.jpg" alt="Shark" class="img-responsive"></img></a></div>
+								<div class="col-sm-4"><a href="#Weird_Love" data-toggle="modal"><img src="img/lot/Weird_Love.jpg" alt="Weird Love" class="img-responsive"></img></a></div>
+								<div class="col-sm-4"><a href="#whale" data-toggle="modal"><img src="img/lot/whale.jpg" alt="Whale" class="img-responsive"></img></a></div>
 							</div>	<!--row-->
 						</div><!--item active-->
 						
