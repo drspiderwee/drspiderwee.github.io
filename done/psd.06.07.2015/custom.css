@@ -97,8 +97,8 @@ aside img {
  padding-left: 8px;
 }
 article {
-	padding-right:40px; 
-	padding-left:40px;
+	/*padding-right:20px; */
+	/*padding-left:20px;*/
 }
 .unmargin {
 	background-color: #f9f9f6;
@@ -303,19 +303,87 @@ box-shadow: 0px -4px 7px 0px #D4D4CC;
 .backimg {
 	background-color: rgba(90, 60, 59, 0.68);
 }
-.backimg>img {
+.backimg>img, .backimg-alt>img {
 opacity: 0.4;
 width: 100%;
 }
-.backimg>img:hover {
+.backimg>img:hover, .backimg-alt>img:hover  {
 opacity: 1;
 }
-.gallery {
-	padding-right: 40px;
+.backimg-alt{
+	background-color: rgba(226, 57, 50, 0.87);
 }
 /*GALLERY*/
+.gallery {
+	padding-top: 45px;
+	padding-right: 40px;
+}
+/*FOOTER*/
+.footer {
+	background: url(img/Background.png);
+	padding-top: 46px;
+	margin-top: 88px;
+	background-size: cover;
+	padding-bottom: 78px;
 
-/*GALLERY*/
+}
+
+.footer p {
+	padding-top: 40px;
+	font-family: Lato;
+	color:#ffffff;
+	font-size: 20px; 
+	font-weight: 300;
+	font-style: italic;
+	line-height: 30px;
+	text-align: center;
+}
+.footer h3 {
+	
+	font-family: Montserrat;
+	color:#ffffff;
+	font-size: 18px; 
+	font-weight: 700;
+	line-height: 48px; 
+	text-align: center;
+}
+.other-pad{
+	padding-bottom: 26px;
+} 
+.other-pad2 {
+	padding-bottom: 85px;
+}
+.footer h4 {
+
+	font-family: Lato;
+	color:#ffffff;
+	font-size: 14px; 
+	font-weight: 300;
+	line-height: 23px; 
+	text-align: center;
+}
+
+/*FOOTER*/
+.brnd-footer {
+	
+	font-family: Lato;
+	color:#d8d8d8;
+	font-size: 14px; /* Приближение из-за подстановки шрифтов */
+	font-weight: 700;
+	line-height: 20px; /* Приближение из-за подстановки шрифтов */
+	text-align: left;
+}
+.nav-ul2 {
+	float: right;
+	font-family: Lato;
+color:
+#d9d9d9;
+font-size: 14px; /* Приближение из-за подстановки шрифтов */
+font-weight: 700;
+line-height: 24px; /* Приближение из-за подстановки шрифтов */
+text-align: center;
+}
+
 
 @media (min-width: 300px) and (max-width: 378px){
 	.my-btn-animation{ 
@@ -353,8 +421,13 @@ opacity: 1;
         padding-bottom: 130px;
         }
 
+
  }
       @media (min-width: 100px) and (max-width:466px){
+	.brnd-footer {
+		padding-left: 34px;
+		text-align: center;
+	}
 	.bottom-brd{ 
         border-bottom: 0;
         }
@@ -368,11 +441,12 @@ opacity: 1;
     .middle2-part h3{
     	padding-top: 22px;
     }
+
 }
 
 
 @media (min-width: 100px) and (max-width:666px){
-		
+
 		.min-h1{
 			font-size: 20px;
 			line-height: 24px;
@@ -428,6 +502,10 @@ opacity: 1;
 		}
 
 }
+@media  (min-width: 100px) and (max-width: 1000px) {
+    .nav-ul2 {
+        display:none;
+    }
 
 
 
