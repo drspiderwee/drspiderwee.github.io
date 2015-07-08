@@ -3,6 +3,66 @@
 	src: url('fonts/Helvetica-Condensed.otf');
 
 }
+#block-cart {
+    margin-left: -8px;
+    position: absolute;
+    height: 28px;
+    float:left;
+    margin-top:-38px;
+    border: 1px solid;
+    border-color: #AEF3F3;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    color: #383838;
+}
+#block-cart > p {
+    background-color: rgba(174, 243, 243, 0.32);
+
+    padding: 3px;
+    padding-left: 6px;
+    cursor:pointer;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 13px;
+}
+#block-cart > p > span.corner-down {
+    float: right;
+    padding-left: 28px;
+    background: url(img/down.png) no-repeat;
+   /* width: 12px;
+    height: 12px;*/
+    position: absolute;
+}
+
+#block-cart > div {
+    border: 1px solid;
+    border-color: #AEF3F3;
+    padding-right: 6px;
+    padding-left: 6px;
+    display: none;
+}
+#block-cart > div > a {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    display: inline-block;
+    padding-bottom: 3px;
+   padding-left: 3px;
+    padding-right: 3px;
+    border: 1px solid rgba(224, 219, 219, 0.6);
+    border-radius: 2px;
+    background-color: rgba(224, 219, 219, 0.4);
+    margin-bottom: 3px;
+}
+.messagecart {
+    padding: 3px;
+    display: none;
+    position: absolute;
+    background: white;
+    border:1px solid black;
+
+}
+
+
 .phone {
 	font-size: 22px;
 	text-align: right;

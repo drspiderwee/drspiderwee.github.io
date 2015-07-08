@@ -1,4 +1,4 @@
-modal window -->
+<!--modal window -->
         <div id="Deadly_Forest" class="modal fade" tabindex="-1">
             <div class="modal-dialog">
                 <div class="modal-content">
@@ -31,9 +31,13 @@ modal window -->
 										</li>
 										<li><b>size</b> <p>XS, S, M, L, XL, XXL</p></li>
 										<li><b>material</b> <p>100% cotton</p></li>
+                                        <li>
+                                            <p class="price-tovar">240 uah</p>
+                                            <p price="240" rel="1" class="add-tovar"></p>
+                                        </li>
 									</ul>
 								</div>
-								<button class="btn btn-success center-block btn-lg" style="margin-top:14px">BUY NOW</button><!-- params end -->
+								<button class="btn btn-success center-block btn-lg" style="...">BUY NOW</buton><!-- params end -->
 							</div>	
 
                         								
@@ -422,7 +426,7 @@ modal window -->
 								<div class="fotorama" data-autoplay="true" data-nav="thumbs"  data-transition="dissolve">
 									<img src="img/lot/Red_Siluet.jpg" width="500" height="500" alt="Red_Siluet" class="img-responsive pull-left">
 									<img src="img/lot/BRed_Siluet.jpg" width="500" height="500" alt="Red_Siluet" class="img-responsive pull-left">
-									<img src="img/tst2.jpg" width="500" height="500" alt="Red_Siluet" class="img-responsive pull-left">
+									<img src="img/lot/BSiluet_Blue.jpg" width="500" height="500" alt="Red_Siluet" class="img-responsive pull-left">
 								</div>
 									
 							</div>

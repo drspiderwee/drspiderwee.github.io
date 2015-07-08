@@ -63,7 +63,7 @@
 				</div>	
 			</div>
 
-			<div class="col-sm-4"><a href="#" data-toggle="modal">
+			<div class="col-sm-4"><a href="#match_spirit" data-toggle="modal">
 				<img src="img/lot/match_spirit.jpg" alt="" class="img-responsive"></img></a>
 				<div class="caption">
 						<h3>Match Spirit</h3>
@@ -71,7 +71,7 @@
 				</div>	
 			</div>
 
-			<div class="col-sm-4"><a href="#" data-toggle="modal">
+			<div class="col-sm-4"><a href="#Piggy" data-toggle="modal">
 				<img src="img/lot/Piggy.jpg" alt="" class="img-responsive"></img></a>
 				<div class="caption">
 						<h3>Piggy</h3>
@@ -80,7 +80,7 @@
 
 			</div>
 			
-			<div class="col-sm-4"><a href="#" data-toggle="modal">
+			<div class="col-sm-4"><a href="#Red_Siluet" data-toggle="modal">
 				<img src="img/lot/Red_Siluet.jpg" alt="" class="img-responsive"></img></a>
 				<div class="caption">
 						<h3>Red Siluet</h3>
@@ -88,7 +88,7 @@
 				</div>	
 			</div>
 			
-			<div class="col-sm-4"><a href="#" data-toggle="modal">
+			<div class="col-sm-4"><a href="#Shark" data-toggle="modal">
 				<img src="img/lot/Shark.jpg" alt="" class="img-responsive"></img></a>
 				<div class="caption">
 						<h3>Shark</h3>
@@ -96,19 +96,19 @@
 				</div>
 			</div>
 
-			<div class="col-sm-4"><a href="#" data-toggle="modal">
+			<div class="col-sm-4"><a href="#Weird_love" data-toggle="modal">
 				<img src="img/lot/Weird_Love.jpg" alt="" class="img-responsive"></img></a>
 				<div class="caption">
 						<h3>Weird Love</h3>
-					<p><a href="#nuan" data-toggle="modal" class="btn btn-primary" role="button">Read more</a></p>
+					<p><a href="#Weird_love" data-toggle="modal" class="btn btn-primary" role="button">Read more</a></p>
 				</div>
 			</div>
 			
-			<div class="col-sm-4"><a href="#" data-toggle="modal">
+			<div class="col-sm-4"><a href="#whale" data-toggle="modal">
 				<img src="img/lot/whale.jpg" alt="" class="img-responsive"></img></a>
 				<div class="caption">
 						<h3>Whale</h3>
-					<p><a href="#nuan" data-toggle="modal" class="btn btn-primary" role="button">Read more</a></p>
+					<p><a href="#whale" data-toggle="modal" class="btn btn-primary" role="button">Read more</a></p>
 				</div>
 			</div>
 

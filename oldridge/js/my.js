@@ -34,5 +34,5 @@
 				currentImg.attr('src', 'img/lot/B' + sourceSrc);
 			}
 
-		});	
+		});
 });

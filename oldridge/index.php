@@ -1,4 +1,10 @@
 <?php
+    include 'db_connect.php';
+?>
+
+
+
+<?php
 $arr = array('contact' => 'Oldridge: Contact', 'aboutus' => 'Oldridge: About Us',
  'catalog' => 'Oldridge: Catalog', 'blog' => 'Oldridge: Blog',);
 
@@ -23,10 +29,20 @@ $title = isset($arr[$_GET['view']]) ? $arr[$_GET['view']] : 'Oldridge: obscurity
 
 </head>
 <body>
-	
+<?php
+   $result =  mysql_query("SELECT * FROM oldridge_products", $link);
+if (mysql_num_rows($result) > 0)
+{
+    $row = mysql_fetch_array($result);
+    do
+    {
+        echo '<p>'.$row["title"].'</p>';
+    }
+        while ($row = mysql_fetch_array($result));
+
+}
+?>
 	<div class="container">
-		<!--bg-->
-		<!--bg-->
 
 		<!--шапка-->
 		<?php include 'header.php'; ?>
@@ -75,6 +91,7 @@ $title = isset($arr[$_GET['view']]) ? $arr[$_GET['view']] : 'Oldridge: obscurity
     <script src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/fotorama.js"></script>
 	<script src="js/my.js"></script>
+    <script src="js/bag.js"></script>
 
 
 </body>
