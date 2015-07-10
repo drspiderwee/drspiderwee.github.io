@@ -299,19 +299,63 @@ box-shadow: 0px -4px 7px 0px #D4D4CC;
 .thumbnail {
 	border: none;
 	margin-bottom: 0;
+	position: relative;
 }
-.backimg {
-	background-color: rgba(90, 60, 59, 0.68);
+.thumbnail:hover .hide-h4 {
+	opacity: 0;
 }
-.backimg>img, .backimg-alt>img {
-opacity: 0.4;
-width: 100%;
+.thumbnail:hover .capt-gal {
+	opacity: 1;
 }
-.backimg>img:hover, .backimg-alt>img:hover  {
-opacity: 1;
+
+.hide-h4:hover {
+/*opacity: 0;*/
 }
-.backimg-alt{
-	background-color: rgba(226, 57, 50, 0.87);
+.hide-h4 {
+	position: absolute;
+	color: white;
+	opacity: 1;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 10px;
+	
+	left:12px;
+	top: 112px;
+	width: 100%;
+	height: 100%;
+	vertical-align: bottom;
+}
+
+.capt-gal {
+	position: absolute;
+	opacity: 0;
+	top:0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(226, 57, 50, 0.5);
+
+}
+
+
+.capt-gal h4 {
+	font-size: 16px;
+	font-weight: 700;
+	color: white;
+	text-align: left;
+	padding-top: 16px;
+	padding-left: 24px;
+}
+
+
+.capt-gal p{
+
+	font-size: 12px;
+	font-weight: 300;
+	line-height: 21px;
+	padding-left: 24px;
+	color: white;
+	text-align: left;
 }
 /*GALLERY*/
 .gallery {
@@ -324,7 +368,8 @@ opacity: 1;
 	padding-top: 46px;
 	margin-top: 88px;
 	background-size: cover;
-	padding-bottom: 78px;
+	
+	border-bottom: 2px solid rgba(0, 112, 211, 0.3);
 
 }
 
@@ -337,6 +382,7 @@ opacity: 1;
 	font-style: italic;
 	line-height: 30px;
 	text-align: center;
+
 }
 .footer h3 {
 	
@@ -347,14 +393,9 @@ opacity: 1;
 	line-height: 48px; 
 	text-align: center;
 }
-.other-pad{
-	padding-bottom: 26px;
-} 
-.other-pad2 {
-	padding-bottom: 85px;
-}
-.footer h4 {
 
+.footer h4 {
+	padding-bottom: 85px;
 	font-family: Lato;
 	color:#ffffff;
 	font-size: 14px; 
@@ -383,7 +424,17 @@ font-weight: 700;
 line-height: 24px; /* Приближение из-за подстановки шрифтов */
 text-align: center;
 }
-
+.footer-capture {
+	margin-top: 84px;
+}
+.img-ul li{
+	text-decoration: none;
+	list-style: none;
+}
+.gen-p {
+	height: 230px;
+	padding-bottom: 32px;
+}
 
 @media (min-width: 300px) and (max-width: 378px){
 	.my-btn-animation{ 
@@ -432,7 +483,7 @@ text-align: center;
         border-bottom: 0;
         }
     .second-btn, .category, .middle2-part {
-    	padding: 6px;
+    	
     	margin-top:42px;
     }
 	.middle2-part{
@@ -443,10 +494,16 @@ text-align: center;
     }
 
 }
-
+@media (min-width: 768px) and (max-width:960px){
+			.gen-p {
+			height: 300px;
+		}
+}
 
 @media (min-width: 100px) and (max-width:666px){
-
+		.gen-p {
+			height: 100%;
+		}
 		.min-h1{
 			font-size: 20px;
 			line-height: 24px;
