@@ -1,0 +1,346 @@
+@import url(http://fonts.googleapis.com/css?family=Hind);
+html {
+  font-family: 'Hind', arial, sans-serif; }
+
+.container {
+  max-width: 1030px; }
+
+/*:::::::::::::::::::::::::::HEADER-NAVBAR::::::::::::::::::::::::::::*/
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a {
+  background-color: transparent;
+  font-weight: bold; }
+
+.navbar-default {
+  background-color: transparent;
+  border-color: transparent;
+  /*text-style*/
+  font-size: 15.5px;
+  margin: 0; }
+
+.navbar-default .navbar-nav li a, .sidebar_nav > ul > li > a {
+  color: #404040; }
+
+#basic-addon1 {
+  background-color: #FFCC66; }
+
+#basic-addon1 i {
+  color: white; }
+
+.nav > li > a {
+  padding: 15px 10px; }
+
+@media screen and (min-width: 768px) {
+  .navbar-form {
+    max-width: 200px; } }
+/*:::::::::::::::::::::::::::::HEADER-NAVBAR::::::::::::::::::::::::*/
+/*:::::::::::::::::::::::::::::LOGO-HEADER::::::::::::::::::::::::*/
+.apples-logo {
+  width: 250px;
+  position: absolute;
+  bottom: 0;
+  left: 15px; }
+
+.header-wrapper {
+  padding-top: 40px;
+  position: relative;
+  height: 170px;
+  background: transparent -webkit-linear-gradient(top, #BE202E 0%, #BC1E2D 58%, #6D131E 100%) repeat scroll 0% 0%;
+  background: transparent linear-gradient(to bottom, #BE202E 0%, #BC1E2D 58%, #6D131E 100%) repeat scroll 0% 0%; }
+  @media screen and (max-width: 767px) {
+    .header-wrapper {
+      padding: 20px 15px; } }
+
+header ul a, header ul {
+  line-height: 1.4;
+  font-size: 18px;
+  color: #FCC062; }
+
+header ul a:hover {
+  color: #eca029;
+  text-decoration: none; }
+
+@media screen and (max-width: 992px) {
+  .slogan-list {
+    text-align: center; } }
+
+.header-wrapper select {
+  margin-bottom: 12px; }
+
+/*DROPDOWN MENU:::::::::::::::::::::::::::::::::*/
+.dropdown-menu {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  border-radius: 1px;
+  background-color: rgba(255, 204, 102, 0.8);
+  color: #404040; }
+  .dropdown-menu a {
+    font-size: 15.3px; }
+
+.dropdown-menu > li > a:hover {
+  background-color: #BE202E;
+  color: white; }
+
+.dropdown-menu .divider {
+  background-color: rgba(140, 131, 114, 0.91);
+  color: rgba(140, 131, 114, 0.91);
+  margin: 0; }
+
+/*::::::::::::::::::::DROPDOWN MENU:::::::::::::*/
+/*:::::::::::::::::::::::::::::LOGO-HEADER::::::::::::::::::::::::*/
+/*::::::::::::::::::::::::::::CAROUSEL:::::::::::::::::::::::::::::::*/
+#carousel-example-generic {
+  border-bottom: 4px solid #FFCC66; }
+
+.carousel-indicators .active {
+  background-color: #FFCC66;
+  border-color: #FFCC66; }
+
+.carousel-indicators li {
+  background-color: white;
+  border-color: white; }
+
+.carousel-inner > .item > img {
+  top: 0;
+  left: 0;
+  min-width: 100%; }
+
+/*:::::::::::::::::::::::::::CAROUSEL:::::::::::::::::::::::::::::::::*/
+/*:::::::::::::::::::::::::::CATEGORY:::::::::::::::::::::::::::::::::*/
+.category {
+  margin-top: 40px; }
+
+.category-wrapper {
+  margin-bottom: 20px;
+  padding: 0 15px; }
+
+.cate-txt h3, .sidebar_nav h3 {
+  font-family: 'Montserrat', arial, sans-serif;
+  color: #BE202E;
+  font-size: 1.5em;
+  font-weight: 400; }
+
+.cate-img img {
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 20px; }
+
+/*:::::::::::::::ASIDE::::::::::::*/
+.aside-wrapper, .category-wrapper {
+  box-shadow: 2px 3px 17px 1px rgba(0, 0, 0, 0.12);
+  border-radius: 10px; }
+
+.red-block {
+  background-color: #BE202E;
+  text-align: center;
+  color: white;
+  padding: 4%;
+  border-radius: 10px 10px 0px 0px; }
+
+.visitFeature {
+  background-color: #FFCC66;
+  padding: 4% 8%;
+  margin: 0;
+  border-radius: 0px 0px 10px 10px;
+  -moz-border-radius: 0px 0px 10px 10px;
+  -webkit-border-radius: 0px 0px 10px 10px; }
+
+.visitFeature > ul > li > a {
+  color: #231F20; }
+
+.rvBtn {
+  background-color: #BE202E;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  margin: 6% 0;
+  text-align: center;
+  border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  box-shadow: 0px 5px 0px 0px #8c1821;
+  padding-top: 15px;
+  padding-bottom: 15px; }
+  @media screen and (max-width: 767px) {
+    .rvBtn {
+      font-size: 16px; } }
+  @media screen and (max-width: 1199px) {
+    .rvBtn {
+      font-size: 12px;
+      max-width: 100%; } }
+
+/*::::::::::::::ASIDE::::::::::::*/
+/*::::::::::::::::::::::::::::::::::CATEGORY::::::::::::::::::::::::::*/
+/*::::::::::::::::::::::::::::::::TOPSELLERS - SEPARATOR::::::::::::::*/
+.sellers-separator p {
+  padding-bottom: 32px;
+  padding-top: 32px;
+  font-size: 2em;
+  color: #BE202E; }
+
+.topsale {
+  margin-bottom: 20px;
+  overflow-y: auto;
+  overflow-x: hidden; }
+  @media screen and (min-width: 768px) {
+    .topsale {
+      height: 400px; } }
+  .topsale h5 {
+    text-transform: uppercase; }
+
+/*::::::::::::::::::::::::::::::::TOPSELLERS - SEPARATOR::::::::::::::*/
+/*::::::::::::::::::::::::::::::::TOPSELLERS:::::::::::::::::::::::::*/
+.topsellers {
+  padding-bottom: 50px; }
+
+.topsellers h4 {
+  font-size: 22px;
+  color: #BE202E; }
+  @media screen and (min-width: 768px) {
+    .topsellers h4 {
+      font-size: 18px; } }
+
+.topsellers .btn-default {
+  margin-top: 8px;
+  padding-top: 10px;
+  padding-bottom: 12px;
+  padding-right: 28px;
+  padding-left: 68px;
+  background: url(img/cart.png) no-repeat left center;
+  background-size: 45px;
+  border-radius: 1px; }
+  @media screen and (max-width: 992px) {
+    .topsellers .btn-default {
+      font-size: 13px;
+      padding-top: 6px;
+      padding-bottom: 8px;
+      background-size: 40px;
+      padding-right: 10px;
+      padding-left: 48px; } }
+
+/*:::::::::::::::::::::::::::::::TOPSELLERS:::::::::::::::::::::::::*/
+/*:::::::::::::::::::::::::::::::FOOTER::::::::::::::::::::::::::::*/
+.footer {
+  padding-top: 12px;
+  padding-bottom: 22px; }
+
+.footer-wrapper {
+  border-top: 4px solid #FFCC66; }
+
+.footer i {
+  color: #BE202E; }
+
+/*
+::::::::::::::::::::::::::::::FOOTER::::::::::::::::::::::::::::::::*/
+@media screen and (max-width: 992px) {
+  .slogan {
+    margin: 0 auto; } }
+/*::::::::::::::::::::::::::SIDEBAR::::::::::::::::::::::::::::*/
+.sidebar_nav ul {
+  padding-bottom: 14px;
+  border-bottom: 1px solid rgba(47, 44, 44, 0.1); }
+
+/*::::::::::::::::::::::::::SIDEBAR::::::::::::::::::::::::::::*/
+.salesxpad {
+  padding-top: 22px; }
+
+.list-unstyled {
+  line-height: 24px; }
+  .list-unstyled a {
+    color: #404040; }
+
+.sidebar_nav ul {
+  padding-bottom: 32px; }
+
+/*:::::::::::::::::::::::::::::::::::::::::::::::*/
+.article-content {
+  margin-top: 15px; }
+  .article-content img.pull-left {
+    margin-bottom: 15px;
+    margin-right: 15px; }
+  .article-content img.pull-right {
+    margin-left: 15px;
+    margin-bottom: 15px; }
+
+.dang {
+  color: red; }
+
+.blue {
+  color: blue; }
+
+hr {
+  border-color: #B8B8B8; }
+
+.divider {
+  margin: 15px 0;
+  border-bottom: 3px solid #FFCC66; }
+
+.subheader-red {
+  color: #FF1333;
+  font-weight: bold;
+  font-size: 20px; }
+
+.pull-down {
+  padding-top: 22px; }
+
+.article-paragraph {
+  font-size: 16px; }
+
+.content-header {
+  font-size: 20px;
+  background-color: #FFCC66;
+  padding: 6px;
+  color: #B70026; }
+
+.subheader-under {
+  font-size: 15px;
+  background-color: #FFCC66;
+  color: #404040;
+  padding: 6px;
+  font-weight: bold; }
+
+.recipe-paragraph {
+  text-align: center;
+  padding-top: 15px;
+  font-weight: bold; }
+  .recipe-paragraph a {
+    text-decoration: none;
+    color: #FF1333; }
+  .recipe-paragraph a:hover {
+    color: black; }
+
+.help-header {
+  font-size: 19px;
+  font-weight: bold;
+  color: #404040; }
+
+.blue-txt {
+  color: #285e8e; }
+
+.ul-bottom-padding {
+  padding-top: 22px;
+  padding-bottom: 22px; }
+
+.bottom-content-pad {
+  padding-top: 16px;
+  padding-bottom: 22px; }
+
+.shipping-btn {
+  margin-top: 6px; }
+
+.from-logo-padding {
+  padding-top: 10px; }
+
+.wine-header, .li_danger {
+  color: #B70026; }
+
+.black-news-header b {
+  color: #080808; }
+
+.topsellers .black-news-header {
+  color: #080808; }
+
+/*:::::::::::::::::::::::::::::::::::::::::::::::*/
+
+/*# sourceMappingURL=custom.css.map */
