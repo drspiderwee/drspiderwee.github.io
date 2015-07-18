@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/nouislider.min.css" rel="stylesheet">
     <link href="custom.css" rel="stylesheet">
     <link rel="stylesheet" href="css/font-awesome.min.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="UTF-8">
     <title>Catalog</title>
 </head>
@@ -60,7 +61,7 @@
             <div class="header-wrapper">
                 <div class="row">
                     <img src="img/top_crate.gif" class="img-responsive hidden-xs hidden-sm apples-logo" alt=""/>
-                    <div class="col-sm-12 col-md-8 col-sm-offset-0 col-md-offset-4 slogan-list">
+                    <div class="col-sm-12 col-md-8 col-sm-offset-0 col-md-offset-3 slogan-list">
                         <img src="img/sloganHeader2.png" class="img-responsive slogan" alt="">
                         <select name="menu" class="form-control visible-xs">
                             <option value="">GIFTS</option>
@@ -87,7 +88,7 @@
                                     <li><a href="">Dried Fruit - Berries</a></li>
                                     <li role="separator" class="divider"></li>
                                     <li><a href="">Sugar Free</a></li>
-                                   
+
                                 </ul>
                             </li>
                             |
@@ -115,11 +116,11 @@
         <div class="col-md-12">
             <!--CAROUSEL-->
             <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-  <!-- Wrapper for slides -->
+                <!-- Wrapper for slides -->
                 <div class="carousel-inner">
                     <div class="item active">
                         <img src="img/test_header.png"
-                         class="img-responsive" alt="...">
+                             class="img-responsive" alt="...">
                     </div>
                 </div>
             </div> <!-- Carousel -->
@@ -134,173 +135,172 @@
     <!--TOP SELLERS SECTIONS-->
     <div class="row topsellers">
         <!--SIDEBAR NAV-->
-    <div class="col-sm-3">
-        <div class="sidebar_nav">
-            <!--element-->
-            <h3>NUTS</h3>
-            <ul class="list-unstyled">
-                <li><a href="#">Almonds (3)</a></li>
-                <li><a href="#">Cashews (10)</a></li>
-                <li><a href="#">Pistachios (9)</a></li>
-                <li><a href="#">Sugar Free (8)</a></li>
-                <li><a href="#">Totally Nuts (10)</a></li>
-                <li><a href="#">Tropical  Treats (15)</a></li>
-            </ul>
-            <!--element-->
-             <!--element-->
-            <h3>FRUITS</h3>
-            <ul class="list-unstyled">
-                <li><a href="#">CHocolate Fruit (3)</a></li>
-                <li><a href="#">Dried Fruit (8)</a></li>
-                <li><a href="#">Dried Fruit - Apercots (2)</a></li>
-                <li><a href="#">Dried Fruit - Berries (13)</a></li>
-                <li><a href="#">Sugar Free (10)</a></li>
-            </ul>
-            <!--element-->
-             <!--element-->
-            <h3>SPECIALS</h3>
-            <ul class="list-unstyled">
-                <li><a href="#">On Sale (10)</a></li>
-                <li><a href="#">New Arrivals (10)</a></li>
-                <li><a href="#">Seasonal Gifts (10)</a></li>
-            </ul>
-            <!--element-->
-             <!--element-->
-            <h3>SHOP BY PRICE</h3>
-            <div id="keypress">
-            <input type="text" id="input-with-keypress">
-            </div>
-            <!--element-->
-        </div> <!--sidebar_nav-->
-    </div>
-<!--SIDEBAR NAV-->
+        <div class="col-sm-3">
+            <div class="sidebar_nav">
+                <!--element-->
+                <h3>NUTS</h3>
+                <ul class="list-unstyled">
+                    <li><a href="#">Almonds (3)</a></li>
+                    <li><a href="#">Cashews (10)</a></li>
+                    <li><a href="#">Pistachios (9)</a></li>
+                    <li><a href="#">Sugar Free (8)</a></li>
+                    <li><a href="#">Totally Nuts (10)</a></li>
+                    <li><a href="#">Tropical  Treats (15)</a></li>
+                </ul>
+                <!--element-->
+                <!--element-->
+                <h3>FRUITS</h3>
+                <ul class="list-unstyled">
+                    <li><a href="#">CHocolate Fruit (3)</a></li>
+                    <li><a href="#">Dried Fruit (8)</a></li>
+                    <li><a href="#">Dried Fruit - Apercots (2)</a></li>
+                    <li><a href="#">Dried Fruit - Berries (13)</a></li>
+                    <li><a href="#">Sugar Free (10)</a></li>
+                </ul>
+                <!--element-->
+                <!--element-->
+                <h3>SPECIALS</h3>
+                <ul class="list-unstyled">
+                    <li><a href="#">On Sale (10)</a></li>
+                    <li><a href="#">New Arrivals (10)</a></li>
+                    <li><a href="#">Seasonal Gifts (10)</a></li>
+                </ul>
+                <!--element-->
+                <!--element-->
+                <h3>SHOP BY PRICE</h3>
+                <div id="range"></div>
+                <p id="price-value"></p>
+                <!--element-->
+            </div> <!--sidebar_nav-->
+        </div>
+        <!--SIDEBAR NAV-->
         <div class="col-sm-9 salesxpad">
-        <!-- element -->
-        <div class="col-md-4 col-sm-4">
-            <div class="topsale">
-                <img src="img/topSellers/apricots.jpg" class="img-responsive" alt="">
-                <h4>$10.00</h4>
-                <h5><b>Dried Fancy Apricots</b></h5>
-                <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                
-                <button type="button" class="btn btn-default">
-                    ADD TO CART
-                </button>
+            <!-- element -->
+            <div class="col-md-4 col-sm-4">
+                <div class="topsale">
+                    <img src="img/topSellers/apricots.jpg" class="img-responsive" alt="">
+                    <h4>$10.00</h4>
+                    <h5><b>Dried Fancy Apricots</b></h5>
+                    <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+                    <button type="button" class="btn btn-default">
+                        ADD TO CART
+                    </button>
+                </div>
+                <!--topsale-->
             </div>
-            <!--topsale-->
-        </div>
-        <!-- element -->
-        <div class="col-md-4 col-sm-4">
-            <div class="topsale">
-                <img src="img/topSellers/blueberries.jpg" class="img-responsive" alt="">
-                <h4>$10.00</h4>
-                <h5><b>Dried Fancy Apricots</b></h5
-                <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                <button type="button" class="btn btn-default">
-                    ADD TO CART
-                </button>
+            <!-- element -->
+            <div class="col-md-4 col-sm-4">
+                <div class="topsale">
+                    <img src="img/topSellers/blueberries.jpg" class="img-responsive" alt="">
+                    <h4>$10.00</h4>
+                    <h5><b>Dried Fancy Apricots</b></h5>
+                    <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <button type="button" class="btn btn-default">
+                        ADD TO CART
+                    </button>
+                </div>
+                <!--topsale-->
             </div>
-            <!--topsale-->
-        </div>
-        <!-- element -->
-        <div class="col-md-4 col-sm-4">
-            <div class="topsale">
-                <img src="img/topSellers/cranberries.jpg" class="img-responsive" alt="">
-                <h4>$10.00</h4>
-                <h5><b>Dried Fancy Apricots</b></h5
-                <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                <button type="button" class="btn btn-default">
-                    ADD TO CART
-                </button>
+            <!-- element -->
+            <div class="col-md-4 col-sm-4">
+                <div class="topsale">
+                    <img src="img/topSellers/cranberries.jpg" class="img-responsive" alt="">
+                    <h4>$10.00</h4>
+                    <h5><b>Dried Fancy Apricots</b></h5>
+                    <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <button type="button" class="btn btn-default">
+                        ADD TO CART
+                    </button>
+                </div>
+                <!--topsale-->
             </div>
-            <!--topsale-->
-        </div>
-        <!-- element -->
-        <div class="col-md-4 col-sm-4">
-            <div class="topsale">
-                <img src="img/topSellers/bananas.jpg" class="img-responsive" alt="">
-                <h4>$10.00</h4>
-                <h5><b>Dried Fancy Apricots</b></h5
-                <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                
-                <button type="button" class="btn btn-default">
-                    ADD TO CART
-                </button>
+            <!-- element -->
+            <div class="col-md-4 col-sm-4">
+                <div class="topsale">
+                    <img src="img/topSellers/bananas.jpg" class="img-responsive" alt="">
+                    <h4>$10.00</h4>
+                    <h5><b>Dried Fancy Apricots</b></h5>
+                    <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+                    <button type="button" class="btn btn-default">
+                        ADD TO CART
+                    </button>
+                </div>
+                <!--topsale-->
             </div>
-            <!--topsale-->
-        </div>
-        <!-- element -->
-        <div class="col-md-4 col-sm-4">
-            <div class="topsale">
-                <img src="img/topSellers/cranberries.jpg" class="img-responsive" alt="">
-                <h4>$10.00</h4>
-                <h5><b>Dried Fancy Apricots</b></h5
-                <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                
-                <button type="button" class="btn btn-default">
-                    ADD TO CART
-                </button>
+            <!-- element -->
+            <div class="col-md-4 col-sm-4">
+                <div class="topsale">
+                    <img src="img/topSellers/cranberries.jpg" class="img-responsive" alt="">
+                    <h4>$10.00</h4>
+                    <h5><b>Dried Fancy Apricots</b></h5>
+                    <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+                    <button type="button" class="btn btn-default">
+                        ADD TO CART
+                    </button>
+                </div>
+                <!--topsale-->
             </div>
-            <!--topsale-->
-        </div>
-        <!-- element -->
-        <div class="col-md-4 col-sm-4">
-            <div class="topsale">
-                <img src="img/topSellers/almonds.jpg" class="img-responsive" alt="">
-                <h4>$10.00</h4>
-                <h5><b>Dried Fancy Apricots</b></h5
-                <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-               
-                <button type="button" class="btn btn-default">
-                    ADD TO CART
-                </button>
+            <!-- element -->
+            <div class="col-md-4 col-sm-4">
+                <div class="topsale">
+                    <img src="img/topSellers/almonds.jpg" class="img-responsive" alt="">
+                    <h4>$10.00</h4>
+                    <h5><b>Dried Fancy Apricots</b></h5>
+                    <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+                    <button type="button" class="btn btn-default">
+                        ADD TO CART
+                    </button>
+                </div>
+                <!--topsale-->
             </div>
-            <!--topsale-->
-        </div>
-        <!-- element -->
-        <div class="col-md-4 col-sm-4">
-            <div class="topsale">
-                <img src="img/topSellers/cranberries.jpg" class="img-responsive" alt="">
-               <h4>$10.00</h4>
-                <h5><b>Dried Fancy Apricots</b></h5
-                <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-               
-                <button type="button" class="btn btn-default">
-                    ADD TO CART
-                </button>
+            <!-- element -->
+            <div class="col-md-4 col-sm-4">
+                <div class="topsale">
+                    <img src="img/topSellers/cranberries.jpg" class="img-responsive" alt="">
+                    <h4>$10.00</h4>
+                    <h5><b>Dried Fancy Apricots</b></h5>
+                    <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+                    <button type="button" class="btn btn-default">
+                        ADD TO CART
+                    </button>
+                </div>
+                <!--topsale-->
             </div>
-            <!--topsale-->
-        </div>
-        <!-- element -->
-        <div class="col-md-4 col-sm-4">
-            <div class="topsale">
-                <img src="img/topSellers/almonds.jpg" class="img-responsive" alt="">
-                <h4>$10.00</h4>
-                <h5><b>Dried Fancy Apricots</b></h5
-                <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                
-                <button type="button" class="btn btn-default">
-                    ADD TO CART
-                </button>
+            <!-- element -->
+            <div class="col-md-4 col-sm-4">
+                <div class="topsale">
+                    <img src="img/topSellers/almonds.jpg" class="img-responsive" alt="">
+                    <h4>$10.00</h4>
+                    <h5><b>Dried Fancy Apricots</b></h5>
+                    <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+                    <button type="button" class="btn btn-default">
+                        ADD TO CART
+                    </button>
+                </div>
+                <!--topsale-->
             </div>
-            <!--topsale-->
-        </div>
-        <!-- element -->
-        <!-- element -->
-        <div class="col-md-4 col-sm-4">
-            <div class="topsale">
-                <img src="img/topSellers/apricots.jpg" class="img-responsive" alt="">
-                <h4>$10.00</h4>
-                <h5><b>Dried Fancy Apricots</b></h5
-                <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                <button type="button" class="btn btn-default">
-                    ADD TO CART
-                </button>
+            <!-- element -->
+            <!-- element -->
+            <div class="col-md-4 col-sm-4">
+                <div class="topsale">
+                    <img src="img/topSellers/apricots.jpg" class="img-responsive" alt="">
+                    <h4>$10.00</h4>
+                    <h5><b>Dried Fancy Apricots</b></h5>
+                    <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <button type="button" class="btn btn-default">
+                        ADD TO CART
+                    </button>
+                </div>
+                <!--topsale-->
             </div>
-            <!--topsale-->
-        </div>
-        <!-- element -->
-    </div><!--col-md-9-->
+            <!-- element -->
+        </div><!--col-md-9-->
     </div>
     <!--TOP SELLERS SECTIONS-->
 
@@ -365,20 +365,17 @@
                             FAX:408-842-0248<br>
                         </address>
 
-                        <address>
-                            <strong>Follow Us</strong><br>
-                <span>
-                    <a href="">
-                        <i class="fa fa-facebook-official fa-3x"></i>
-                    </a>
-                </span>
-                <span>
-                    <a href="">
-                        <i class="fa fa-twitter-square fa-3x"></i>
-                    </a>
-                </span>
-                        </address>
 
+                        <strong class="footer-strong">Follow Us</strong><br>
+                            <ul class="list-unstyled list-inline">
+                                <li class="no-right-pad"><a href="">
+                                    <div class="social-icon"> </div>
+                                </a>
+                                </li>
+                                <li class="no-left-pad"><a href="" >
+                                    <div class="social-icon" style="background-position: -34px 0"> </div>
+                                </a></li>
+                            </ul>
 
                     </div>
                 </div>
@@ -393,6 +390,7 @@
 <!-- javascript -->
 <script src="js/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
+<script src="js/nouislider.min.js"></script>
 <script src="js/my.js"></script>
 </body>
 </html>

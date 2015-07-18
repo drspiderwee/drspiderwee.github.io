@@ -2,10 +2,20 @@ $basic_orange: #FFCC66;
 $basic_red: #BE202E;
 $header_color: #B70026;
 $header_black: #404040;
+$text_gray:#595955;
 
-@import url(http://fonts.googleapis.com/css?family=Hind);
+@import url(http://fonts.googleapis.com/css?family=Hind:400,300,600);
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+
 html {
   font-family: 'Hind', arial, sans-serif;
+  font-size: 1em;
+}
+
+h3{
+  font-family: 'Montserrat', arial, sans-serif;
+  font-size: 1.5em;
+  font-weight: 400;
 }
 
 .container {
@@ -23,12 +33,18 @@ html {
   background-color: transparent;
   border-color: transparent;
   /*text-style*/
-  font-size: 15.5px;
-  margin: 0;
+  font-size: 17.5px;
+  font-family: "Hind",arial,sans-serif;
+  margin-top: 6px;
+  margin-bottom: 6px;
 }
 
 .navbar-default .navbar-nav li a, .sidebar_nav > ul > li > a {
   color: $header_black;
+}
+ .navbar-right  li >a {
+  font-size: 15.5px;
+   color:$text_gray;
 }
 
 #basic-addon1 {
@@ -62,7 +78,7 @@ html {
 .header-wrapper {
   padding-top: 40px;
   position: relative;
-  height: 170px;
+  max-height: 170px;
   background: transparent linear-gradient(to bottom, #BE202E 0%, #BC1E2D 58%, #6D131E 100%) repeat scroll 0% 0%;
 
   @media screen and (max-width: 767px) {
@@ -71,6 +87,7 @@ html {
 }
 
 header ul a, header ul {
+  font-family: 'Montserrat', arial, sans-serif;
   line-height: 1.4;
   font-size: 18px;
   color: #FCC062;
@@ -81,10 +98,17 @@ header ul a:hover {
   text-decoration: none;
 }
 
-.slogan-list {
+.slogan-list{
+  padding-left:4%;
   @media screen and (max-width: 992px) {
+    padding-left:0;
     text-align: center;
   }
+  @media screen and (max-width: 768px) {
+    padding-left:2.5%;
+    text-align: center;
+  }
+
 }
 
 .header-wrapper select {
@@ -125,11 +149,14 @@ header ul a:hover {
 .carousel-indicators .active {
   background-color: $basic_orange;
   border-color: $basic_orange;
+  margin: 1px;
 }
 
 .carousel-indicators li {
   background-color: white;
   border-color: white;
+  width: 12px;
+  height: 12px;
 }
 
 .carousel-inner > .item > img {
@@ -142,12 +169,20 @@ header ul a:hover {
 
 /*:::::::::::::::::::::::::::CATEGORY:::::::::::::::::::::::::::::::::*/
 .category {
-  margin-top: 40px;
+  margin-top: 48px;
 }
 
 .category-wrapper {
-  margin-bottom: 20px;
-  padding: 0 15px;
+  margin-right: -8px;
+  margin-bottom: 23px;
+  padding: 4px 18px;
+  p{
+    font-family: 'Hind', arial, sans-serif;
+    font-weight: 400;
+    color:#595955;
+    margin: 1.5% 0;
+    font-size: 0.9em;
+  }
 }
 
 .cate-txt h3, .sidebar_nav h3 {
@@ -155,6 +190,7 @@ header ul a:hover {
   color: $basic_red;
   font-size: 1.5em;
   font-weight: 400;
+  line-height: 14px;
 }
 
 .cate-img img {
@@ -176,16 +212,31 @@ header ul a:hover {
   color: white;
   padding: 4%;
   border-radius: 10px 10px 0px 0px;
+  h3{
+    margin-top: 4px;
+    margin-bottom: 3px;
+  }
+
 }
 
 .visitFeature {
-
   background-color: $basic_orange;
-  padding: 4% 8%;
+  padding: 5% 6%;
   margin: 0;
   border-radius: 0px 0px 10px 10px;
   -moz-border-radius: 0px 0px 10px 10px;
   -webkit-border-radius: 0px 0px 10px 10px;
+  p, a {
+    font-family: 'Hind', sans-serif;
+    font-size: 0.9em;
+    font-weight: 400;
+  }
+  a{
+    text-decoration: underline;
+  }
+  span {
+    color:$basic_red;
+  }
 }
 
 .visitFeature > ul > li > a {
@@ -195,10 +246,10 @@ header ul a:hover {
 .rvBtn {
   background-color: $basic_red;
   color: white;
-  font-size: 18px;
+  font-size: 17.5px;
   font-weight: bold;
   border: none;
-  margin: 6% 0;
+  margin: 5% 0;
   text-align: center;
   border-radius: 10px 10px 10px 10px;
   -moz-border-radius: 10px 10px 10px 10px;
@@ -206,8 +257,8 @@ header ul a:hover {
   -webkit-box-shadow: 0px 5px 0px 0px rgba(140, 24, 33, 1);
   -moz-box-shadow: 0px 5px 0px 0px rgba(140, 24, 33, 1);
   box-shadow: 0px 5px 0px 0px rgba(140, 24, 33, 1);
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 
   @media screen and (max-width: 767px) {
     font-size: 16px;
@@ -224,8 +275,9 @@ header ul a:hover {
 
 /*::::::::::::::::::::::::::::::::TOPSELLERS - SEPARATOR::::::::::::::*/
 .sellers-separator p {
-  padding-bottom: 32px;
-  padding-top: 32px;
+  font-family: 'Montserrat', arial, sans-serif;
+  padding-bottom: 22px;
+  padding-top: 16px;
   font-size: 2em;
   color: $basic_red;
 }
@@ -240,6 +292,9 @@ header ul a:hover {
   }
   h5 {
     text-transform: uppercase;
+  }
+  p {
+    font-family: "Hind",arial,sans-serif;
   }
 }
 
@@ -261,12 +316,12 @@ header ul a:hover {
 
 .topsellers .btn-default {
   margin-top: 8px;
-  padding-top: 10px;
-  padding-bottom: 12px;
+  padding-top: 8px;
+  padding-bottom: 10px;
   padding-right: 28px;
-  padding-left: 68px;
+  padding-left: 66px;
   background: url(img/cart.png) no-repeat left center;
-  background-size: 45px;
+  background-size: 42px;
   border-radius: 1px;
   @media screen and (max-width: 992px) {
     font-size: 13px;
@@ -287,13 +342,38 @@ header ul a:hover {
 }
 
 .footer-wrapper {
+  padding-top: 28px;
   border-top: 4px solid $basic_orange;
+  h3 {
+    font-family: 'Montserrat', arial, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+  }
+  li, address {
+    font-family: 'Hind', arial, sans-serif;
+    font-size: 16px;
+    color: $header_black;
+  }
 
 }
-
-.footer i {
-  color: $basic_red;
+.footer-strong{
+  font-size: 16px;
 }
+
+.social-icon {
+  background: url("img/twt.png")no-repeat scroll;
+  width: 37px;
+  height: 36px;
+}
+.list-unstyled .no-right-pad {
+  padding-right: 0;
+}
+.list-unstyled .no-left-pad {
+  padding-left: 0;
+}
+
+
+
 
 /*
 ::::::::::::::::::::::::::::::FOOTER::::::::::::::::::::::::::::::::*/
@@ -309,6 +389,9 @@ header ul a:hover {
 .sidebar_nav ul {
   padding-bottom: 14px;
   border-bottom: 1px solid rgba(47, 44, 44, 0.1);
+  a{
+    font-family: 'Hind', arial, sans-serif;
+  }
 }
 
 /*::::::::::::::::::::::::::SIDEBAR::::::::::::::::::::::::::::*/
@@ -429,5 +512,8 @@ hr {
 }
 .topsellers .black-news-header {
   color: #080808;
+}
+#price-value {
+  margin-top: 15px;
 }
 /*:::::::::::::::::::::::::::::::::::::::::::::::*/
