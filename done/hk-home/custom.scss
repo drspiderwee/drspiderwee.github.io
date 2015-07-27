@@ -1,0 +1,203 @@
+//palette
+$red: #ff6760;
+$top-black: #262626;
+$mid-black: #2a2a2a;
+$footer-black: #313131;
+$end-black: #2c2c2c;
+$light-gray: #f8f8f8;
+$gray-text: #616161;
+//palette
+
+//fonts
+@import url(http://fonts.googleapis.com/css?family=Lato:400,300italic,300,700);
+//fonts
+body {
+  font-size: 13px;
+  font-family: 'Lato', sans-serif;
+}
+.container {
+  max-width: 1600px;
+}
+//sections look
+.total-black {
+  background-color: $top-black;
+}
+.mid-black {
+  background-color: #2a2a2a;;
+}
+.gray-section {
+  background-color: $light-gray;
+}
+.socials-background {
+  background-color:$footer-black;
+
+}
+.footer-cover {
+  background-color: $end-black;
+}
+//sections look
+
+//nav style
+.navbar {
+  margin-top: 16px;
+}
+
+.navbar-default {
+  background-color: transparent;
+  border: none;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover {
+  color: $red;
+  background-color: transparent;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: white;
+}
+//nav style
+
+//general-article
+.general-article {
+  margin-top: 80px;
+  margin-bottom: 80px;
+  h1 {
+    color: #d9d9d9;
+    font-size: 60px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 300;
+    line-height: 70px;/* Приближение из-за подстановки шрифтов */
+
+  }
+  h2 {
+    color: #d9d9d9;
+    font-size: 40px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 300;
+    line-height: 50px;/* Приближение из-за подстановки шрифтов */
+
+  }
+  button {
+    margin-top: 60px;
+    font-size: 14px;
+    font-weight: 900;
+    line-height: 40px;
+    padding: 10px 32px;
+  }
+
+}
+//general-article
+.gray-content-holder {
+  margin-top: 80px;
+  img {
+    height: 65px;
+  }
+  h3 {
+    color: $gray-text;
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 40px;
+  }
+  p {
+    color: $gray-text;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+  }
+}
+//featured
+.featured-holder {
+  margin-bottom: 40px;
+  h3 {
+    color: $gray-text;
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 60px;
+  }
+  h4 {
+    font-size: 20px;
+    font-weight: 300;
+  }
+  button {
+    margin-right: 6px;
+  }
+  .active {
+    border-color: #595959;;
+    background-color: #595959;
+  }
+}
+.red-buttons {
+  margin-top: 60px;
+}
+
+.img-holder {
+
+  margin-bottom: 30px;
+}
+//Portfolio
+//socials
+.margin-wrapper {
+  margin-bottom: 40px;
+}
+
+.socials-holder {
+  margin-top: 32px;
+  margin-bottom: 28px;
+  h3 {
+    color: #e0e0e0;
+    font-size: 30px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 900;
+    line-height: 60px;/* Приближение из-за подстановки шрифтов */
+  }
+  h4 {
+    color: #bebebe;
+    font-size: 20px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 300;
+  }
+  h5 {
+    color: #bebebe;
+    font-size: 14px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+    line-height: 24px;/* Приближение из-за подстановки шрифтов */
+  }
+  span {
+    color:$red;
+  }
+}
+//socials
+//socials-sprites
+.social-sprite {
+  background: url('img/SocialIcons.png') no-repeat 0 0;
+  width: 30px;
+  height: 30px;
+}
+.social-sprite2 {
+  background: url('img/SocialIcons.png') no-repeat -37px 0;
+  width: 30px;
+  height: 30px;
+}
+.social-sprite3 {
+  background: url('img/SocialIcons.png') no-repeat -74px 0;
+  width: 30px;
+  height: 30px;
+}
+.social-sprite4 {
+  background: url('img/SocialIcons.png') no-repeat -111px 0;
+  width: 30px;
+  height: 30px;
+}
+.social-sprite5 {
+  background: url('img/SocialIcons.png') no-repeat -148px 0;
+  width: 30px;
+  height: 30px;
+}
+//socials-sprites
+//copryghts
+.copyrights-holder {
+  margin-bottom: 36px;
+  margin-top: 36px;
+  p{
+    color: #bebebe;
+    font-size: 14px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+    line-height: 24px;/* Приближение из-за подстановки шрифтов */
+  }
+}
