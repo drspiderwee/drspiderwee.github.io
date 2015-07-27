@@ -51,7 +51,9 @@ body {
   color: $red;
   background-color: transparent;
 }
-
+.navbar-default .navbar-nav > li > a:hover {
+  color:#A0A0A0 ;
+}
 .navbar-default .navbar-nav > li > a {
   color: white;
 }
@@ -123,6 +125,10 @@ body {
     border-color: #595959;;
     background-color: #595959;
   }
+
+}
+.btn {
+  margin-bottom: 12px;
 }
 .red-buttons {
   margin-top: 60px;
