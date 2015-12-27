@@ -1,0 +1,19 @@
+@media screen and (max-width: 767px) {
+    
+	.social-icons a {
+		font-size:20px;
+	}
+	.social-icons li {
+		width: 12%;
+		padding:12px 0;
+	}
+	.social-icons li:hover {opacity: 0.8;}
+	
+	.last p, .last a, .last ul {font-size:12px; float:none!important;text-align: center;line-height: 2.6;}
+
+	nav a {padding:2px 0!important; text-align: center;}
+	.navbar-nav {margin: 0 auto;}
+	nav{min-height: 42px!important;}
+	
+}
+

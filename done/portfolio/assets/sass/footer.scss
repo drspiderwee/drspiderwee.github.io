@@ -1,0 +1,37 @@
+.social-info {
+	background-color:#F8F8F8;
+
+	h5 {color:
+		#333333;
+		font-size: 22px;/* Приближение из-за подстановки шрифтов */
+		font-weight: 400;
+		padding:13px;
+	}
+	address {color: #777777; font-size:18px; padding-top:22px;}
+	.original-border {
+		margin:0 auto;
+		width: 30%;
+		border:1.5px solid #cccccc;
+
+	}
+}
+
+.info-wrapper{
+
+	&:hover {
+		h5,address{color: #ffffff;}
+		
+		background:#333333;
+	}
+	transition: background 0.4s ease;
+	padding:26px 0;
+	
+}
+
+.last {
+	p, ul, li,a {margin:0!important;}
+	color:white;
+	a {color:white;}
+	padding:23px 0;
+	background-color:#231f20;
+}
