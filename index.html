@@ -49,6 +49,16 @@
 	}
 
 </style>
+<script>
+	var source= document.createElement('source');
+if (audio.canPlayType('audio/mpeg;')) {
+    source.type= 'audio/mpeg';
+    source.src= 'audio/song.mp3';
+} else {
+    source.type= 'audio/ogg';
+    source.src= 'audio/song.ogg';
+}
+</script>
 </head>
 
  <audio controls autoplay="autoplay" volume="1" >
