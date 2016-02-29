@@ -1,0 +1,1 @@
+"use strict";console.log("'Allo 'Allo!"),$(document).ready(function(){$(".owl-carousel").owlCarousel({responsive:{0:{items:3},480:{items:5},768:{items:8}}})});
